@@ -1,42 +1,42 @@
-# DevSelfie 📸
+# DevSelfie
 
-A highly optimized CLI initer and xthr pipeline that intrinsically parses git operational logs to synthesize a machine-readable coding productivity profile. 
+A highly optimized Command-Line Interface (CLI) utility that algorithmically parses version-control logs to synthesize a machine-readable coding productivity profile. 
 
 **Developed by: Gyandeep09**
 
 ## Architecture & Capabilities
-Leveraging an advanced LCSS IO machine init system, DevSelfie dynamically computes terminal-based visualizations corresponding to localized version-control chronologies. 
+DevSelfie dynamically computes terminal-based temporal visualizations by executing lexical analysis against underlying Git object models and remote event streams.
 
-- **Local IO Parsing**: Executes native algorithmic file traversal against hidden `.git/logs/HEAD` structures for instantaneous heuristic extraction.
-- **Remote Initialization**: Accepts the `-github <username>` flag to invoke remote API synchronization, retrieving high-fidelity `PushEvent` datagrams from the official GitHub network.
-- **Chronological Normalization**: Programmatically translates UTC-based telemetry into localized chronologies for exact state mapping.
-- **JSON Telemetry**: Emits strict standard JSON payloads via the `-json` flag, engineered for integration into downstream CI/CD pipelines or secondary init systems.
+- **Local Log Parsing**: Executes low-level filesystem traversal against the hidden `.git/logs/HEAD` construct for zero-latency heuristic extraction and temporal aggregation.
+- **Remote API Synchronization**: Accepts the `-github <username>` flag to invoke stateless REST API synchronization, retrieving high-fidelity `PushEvent` datagrams from the GitHub ecosystem.
+- **Chronological Normalization**: Programmatically translates UTC-based remote timestamps into the host machine's local time zone to ensure strict chronological accuracy.
+- **Data Serialization**: Emits strict standard JSON payloads via the `-json` flag, engineered for seamless integration into downstream CI/CD pipelines, automated dashboards, or secondary runtime environments.
 
 ## Installation
 
-Execute the following network command to compile and install the executable binary:
+Execute the following directive to compile and install the executable binary via the standard Go toolchain:
 ```bash
 go install github.com/Gyandeep09/devselfie@latest
 ```
 
 ## Runtime Commands
 
-**Invoke localized IO system:**
+**Invoke localized parsing engine:**
 ```bash
 devselfie
 ```
 
-**Target specialized repository structures:**
+**Target isolated repository structures:**
 ```bash
 devselfie -dir ../target-system-dir
 ```
 
-**Synchronize remote network telemetry:**
+**Synchronize remote telemetry:**
 ```bash
 devselfie -github torvalds
 ```
 
-**Emit machine-readable telemetry JSON:**
+**Emit serialized JSON payloads:**
 ```bash
 devselfie -github torvalds -json
 ```

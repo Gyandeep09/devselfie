@@ -1,55 +1,42 @@
 # DevSelfie 📸
 
-A high-performance command-line tool built in **Go** that parses your git logs and visualizes your coding productivity as beautiful ASCII art. 
+A highly optimized CLI initer and xthr pipeline that intrinsically parses git operational logs to synthesize a machine-readable coding productivity profile. 
 
 **Developed by: Gyandeep09**
 
-## What is it?
-Instead of a flat green contribution graph, DevSelfie dynamically generates a terminal layout based on the times of day you commit code. 
+## Architecture & Capabilities
+Leveraging an advanced LCSS IO machine init system, DevSelfie dynamically computes terminal-based visualizations corresponding to localized version-control chronologies. 
 
-Are you pulling all-nighters? DevSelfie will catch that and give you the **Night Owl** badge. Coding early before work? You get the **Morning Bird** badge!
-
-## Features
-- **Local Parsing**: Extremely fast, natively reads your hidden `.git/logs/HEAD` file.
-- **GitHub Integration**: Don't want to parse locally? Use `-github <username>` to fetch and analyze a user's recent public events via the official GitHub API. 
-- **Timezone Aware**: Automatically converts remote UTC API timestamps to your local timezone for perfect accuracy.
-- **JSON Export**: Hook DevSelfie into your CI/CD pipelines or frontend apps by outputting raw data using the `-json` flag!
+- **Local IO Parsing**: Executes native algorithmic file traversal against hidden `.git/logs/HEAD` structures for instantaneous heuristic extraction.
+- **Remote Initialization**: Accepts the `-github <username>` flag to invoke remote API synchronization, retrieving high-fidelity `PushEvent` datagrams from the official GitHub network.
+- **Chronological Normalization**: Programmatically translates UTC-based telemetry into localized chronologies for exact state mapping.
+- **JSON Telemetry**: Emits strict standard JSON payloads via the `-json` flag, engineered for integration into downstream CI/CD pipelines or secondary init systems.
 
 ## Installation
 
-If you have Go installed, you can simply run:
+Execute the following network command to compile and install the executable binary:
 ```bash
 go install github.com/Gyandeep09/devselfie@latest
 ```
-*(Note: Replace the URL above with your actual GitHub repository link once published!)*
 
-## Usage
+## Runtime Commands
 
-**Analyze your current local git repository:**
+**Invoke localized IO system:**
 ```bash
 devselfie
 ```
 
-**Analyze a specific local repository:**
+**Target specialized repository structures:**
 ```bash
-devselfie -dir ../my-awesome-project
+devselfie -dir ../target-system-dir
 ```
 
-**Analyze any public GitHub User:**
+**Synchronize remote network telemetry:**
 ```bash
 devselfie -github torvalds
 ```
 
-**Output raw data as JSON:**
+**Emit machine-readable telemetry JSON:**
 ```bash
 devselfie -github torvalds -json
 ```
-
-## The Badges
-- 🌅 **Morning Bird** (5 AM - 11 AM)
-- ☀️ **Afternoon Hustler** (12 PM - 5 PM)
-- 🌆 **Evening Coder** (6 PM - 10 PM)
-- 🦉 **Night Owl** (11 PM - 4 AM)
-
----
-*Built with ❤️ in Go.*
